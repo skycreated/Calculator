@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Calculator" parent="Base.Theme.Calculator" />
+
+    <style name="CaBtn" parent="Widget.Material3.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="cornerRadius">70dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="rippleColor">#4DFFFFFF</item>
+    </style>
+
+    <style name="CaBtn.Number">
+        <item name="backgroundTint">@color/num_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CaBtn.Function">
+        <item name="backgroundTint">@color/button1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="CaBtn.Operator">
+        <item name="backgroundTint">@color/button2</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="imageEdit">
+        <item name ="android:background">@drawable/raccoon</item>
+    </style>
+
+</resources>
